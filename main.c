@@ -281,7 +281,5 @@
 // 	printf("               ---------> %d <---------", c);
 // 	printf("\n\n");
 
-// 	c = ft_printf("   fff\0 56 %d", 2);
-// 	printf("%d", c);
 // 	return (0);
 // }
