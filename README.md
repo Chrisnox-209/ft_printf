@@ -97,4 +97,4 @@ Conformément à l'esprit et aux règles de l'école 42, l'utilisation de ce cod
 ## 👤 Auteur
 
 * **Nom** : PIETRZAK Christophe
-* **42 email** : cpietrza@student.42lyon.f
+* **42 email** : cpietrza@student.42lyon.fr
