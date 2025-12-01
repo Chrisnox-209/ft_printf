@@ -32,6 +32,7 @@ Le programme repose uniquement sur l’utilisation de `write()` et de fonctions 
 
 ## 📁 Structure
 
+```
 ft_printf/
 ├── include/
 │   └── ft_printf.h        
@@ -45,7 +46,7 @@ ft_printf/
     ├── ft_putnbr.c        
     ├── ft_putnbr_unsigned.c 
     └── ft_putstr.c    
-
+```
 ---
 
 ## 🧠 Comment ça fonctionne ?
