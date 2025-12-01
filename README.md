@@ -32,19 +32,21 @@ Le programme repose uniquement sur l’utilisation de `write()` et de fonctions 
 
 ## 🛠️ Structure du projet
 
+## 🛠️ Structure du projet
+
 ft_printf/
 ├── include/
-│ └── ft_printf.h # Header principal
-├── libftprintf.a # Bibliothèque compilée
-├── main.c # Programme de test
-├── Makefile # Compilation automatique
+│   └── ft_printf.h        
+├── libftprintf.a          
+├── main.c                 
+├── Makefile               
 └── src/
-├── ft_check.c # Gestion des conversions
-├── ft_printf.c # Fonction principale ft_printf
-├── ft_putchar.c # Affichage d'un caractère
-├── ft_putnbr.c # Affichage d'entiers signés
-├── ft_putnbr_unsigned.c # Affichage d'entiers non signés
-└── ft_putstr.c # Affichage de chaînes
+    ├── ft_check.c         
+    ├── ft_printf.c        
+    ├── ft_putchar.c       
+    ├── ft_putnbr.c        
+    ├── ft_putnbr_unsigned.c 
+    └── ft_putstr.c       
 
 ---
 
