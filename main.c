@@ -6,11 +6,11 @@
 /*   By: cpietrza <cpietrza@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/30 16:14:35 by cpietrza          #+#    #+#             */
-/*   Updated: 2025/12/01 09:40:14 by cpietrza         ###   ########.fr       */
+/*   Updated: 2025/12/01 20:29:54 by cpietrza         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "include/ft_printf.h"
 #include <limits.h>
 #include <stdio.h>
 
@@ -279,7 +279,10 @@ int	main(void)
 	int c;
 	c = ft_printf("%");
 	printf("               ---------> %d <---------", c);
+	printf("\n");
+	int d;
+	d = ft_printf(NULL);
+	printf("               ---------> %d <---------", d);
 	printf("\n\n");
-
 	return (0);
 }
