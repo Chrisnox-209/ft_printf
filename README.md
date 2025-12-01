@@ -32,21 +32,19 @@ Le programme repose uniquement sur l’utilisation de `write()` et de fonctions 
 
 ## 📁 Structure
 
-
-
 ft_printf/
-├──────include/
-│      └── ft_printf.h        
+├── include/
+│   └── ft_printf.h        
 ├── libftprintf.a          
 ├── main.c                 
 ├── Makefile               
-└────── src/
-	├── ft_check.c         
-	├── ft_printf.c        
-	├── ft_putchar.c       
-	├── ft_putnbr.c        
-	├── ft_putnbr_unsigned.c 
-	└── ft_putstr.c       
+└── src/
+    ├── ft_check.c         
+    ├── ft_printf.c        
+    ├── ft_putchar.c       
+    ├── ft_putnbr.c        
+    ├── ft_putnbr_unsigned.c 
+    └── ft_putstr.c    
 
 ---
 
