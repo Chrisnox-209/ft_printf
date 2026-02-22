@@ -2,8 +2,8 @@
 
 ## 🎯 Objectif du projet
 
-Ce projet consiste à coder une version simplifiée et totalement autonome de la fonction `printf` de la libc.  
-Le but : comprendre en profondeur comment fonctionnent les conversions, la gestion de la sortie standard, le formattage, et la manipulation de types variés en C.  
+Ce projet consiste à coder une version simplifiée et totalement autonome de la fonction `printf` de la libc.
+Le but : comprendre en profondeur comment fonctionnent les conversions, la gestion de la sortie standard, le formattage, et la manipulation de types variés en C.
 Le programme repose uniquement sur l’utilisation de `write()` et de fonctions personnelles, conformément aux règles de l’école 42.
 
 ---
@@ -12,20 +12,20 @@ Le programme repose uniquement sur l’utilisation de `write()` et de fonctions 
 
 `ft_printf` gère l’affichage de différents types grâce à un système de conversions :
 
-### 🔠 Conversions de base  
-- `%c` — Affiche un caractère  
-- `%s` — Affiche une chaîne  
-- `%d` / `%i` — Affiche un entier signé  
-- `%u` — Affiche un entier non signé  
+### 🔠 Conversions de base
+- `%c` — Affiche un caractère
+- `%s` — Affiche une chaîne
+- `%d` / `%i` — Affiche un entier signé
+- `%u` — Affiche un entier non signé
 
-### 🔢 Formatage numérique avancé  
-- `%x` — Entier formaté en hexadécimal minuscule  
-- `%X` — Entier formaté en hexadécimal majuscule  
+### 🔢 Formatage numérique avancé
+- `%x` — Entier formaté en hexadécimal minuscule
+- `%X` — Entier formaté en hexadécimal majuscule
 
-### 🧭 Pointeurs  
+### 🧭 Pointeurs
 - `%p` — Adresse mémoire au format hexadécimal préfixée par `0x`
 
-### 🔁 Littéral  
+### 🔁 Littéral
 - `%%` — Affiche un pourcentage
 
 ---
@@ -35,23 +35,23 @@ Le programme repose uniquement sur l’utilisation de `write()` et de fonctions 
 ```
 ft_printf/
 ├── include/
-│   └── ft_printf.h        
-├── libftprintf.a          
-├── main.c                 
-├── Makefile               
+│   └── ft_printf.h
+├── libftprintf.a
+├── main.c
+├── Makefile
 └── src/
-    ├── ft_check.c         
-    ├── ft_printf.c        
-    ├── ft_putchar.c       
-    ├── ft_putnbr.c        
-    ├── ft_putnbr_unsigned.c 
-    └── ft_putstr.c    
+    ├── ft_check.c
+    ├── ft_printf.c
+    ├── ft_putchar.c
+    ├── ft_putnbr.c
+    ├── ft_putnbr_unsigned.c
+    └── ft_putstr.c
 ```
 ---
 
 ## 🧠 Comment ça fonctionne ?
 
-`ft_printf` analyse la chaîne de format caractère par caractère.  
+`ft_printf` analyse la chaîne de format caractère par caractère.
 Quand il rencontre `%`, il récupère la lettre suivante pour déterminer quel type afficher.
 
 Chaque conversion est déléguée à une fonction dédiée :
@@ -67,20 +67,20 @@ Chaque appel ajoute à un compteur le nombre total de caractères écrits, exact
 
 ## 📚 Concepts essentiels
 
-- Parsing de chaînes  
-- Gestion des arguments variadiques (`stdarg.h`)  
-- Conversion de types  
-- Affichage récursif  
-- Manipulation d’adresses mémoire  
-- Respect strict de la Norme 42  
+- Parsing de chaînes
+- Gestion des arguments variadiques (`stdarg.h`)
+- Conversion de types
+- Affichage récursif
+- Manipulation d’adresses mémoire
+- Respect strict de la Norme 42
 
 ---
 
 ## 🛡️ Limitations imposées par le projet
 
-- Aucune utilisation de `printf`, `itoa`, `sprintf`, etc.  
-- Interdiction d’allouer dynamiquement (sauf cas indirect via libft).  
-- Une seule fonction autorisée : `write()`.  
+- Aucune utilisation de `printf`, `itoa`, `sprintf`, etc.
+- Interdiction d’allouer dynamiquement (sauf cas indirect via libft).
+- Une seule fonction autorisée : `write()`.
 - Fonctionnement identique au vrai printf pour les conversions demandées.
 
 ---
@@ -99,3 +99,6 @@ Conformément à l'esprit et aux règles de l'école 42, l'utilisation de ce cod
 
 * **Nom** : PIETRZAK Christophe
 * **42 email** : cpietrza@student.42lyon.fr
+
+## 🏆 NOTE
+<img src="https://raw.githubusercontent.com/Chrisnox-209/ft_printf/refs/heads/main/note.png" alt="Note printf 42 Lyon" style="display:block; margin:auto;">
